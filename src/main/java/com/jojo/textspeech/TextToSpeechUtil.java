@@ -1,8 +1,5 @@
 package com.jojo.textspeech;
 
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-
 import com.google.cloud.texttospeech.v1.AudioConfig;
 import com.google.cloud.texttospeech.v1.AudioEncoding;
 import com.google.cloud.texttospeech.v1.SsmlVoiceGender;
@@ -31,7 +28,7 @@ public class TextToSpeechUtil {
 	    VoiceSelectionParams voice =
 	        VoiceSelectionParams.newBuilder()
 	            .setLanguageCode("ja-JP") // languageCode = "en_us"
-	            .setSsmlGender(SsmlVoiceGender.FEMALE) // ssmlVoiceGender = SsmlVoiceGender.FEMALE
+	            .setSsmlGender(SsmlVoiceGender.MALE) // ssmlVoiceGender = SsmlVoiceGender.FEMALE
 	            .build();
 
 	    // Select the type of audio file you want returned
