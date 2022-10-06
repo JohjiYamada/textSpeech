@@ -14,7 +14,10 @@ import com.jojo.textspeech.TextToSpeechUtil;
 @Controller
 public class TextSpeechController {
 	
-	private String text = "進撃の巨人のセリフ 「心臓を捧げよ」  どういう意味ですか？  また、どのような状況で言ったのですか？  読んだことがないのでよくわからないのですが  よくいろんな場所でこの言葉が使われるので  教えてください  アルミンに関係があるらしいのですが…";
+//	private String text = "進撃の巨人のセリフ 「心臓を捧げよ」  どういう意味ですか？  また、どのような状況で言ったのですか？  読んだことがないのでよくわからないのですが  よくいろんな場所でこの言葉が使われるので  教えてください  アルミンに関係があるらしいのですが…";
+
+	private String text = "しおぱんたべたい。しおぱんたべたい。しおぱんたべたい。しおぱんたべたい。しおぱんたべたい。しおぱんたべたい。キェェェェェー！！";
+
 	
 	@RequestMapping("/")
 	private Object index() throws Exception {
